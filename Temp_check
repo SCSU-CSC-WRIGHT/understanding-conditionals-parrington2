@@ -1,4 +1,18 @@
+temp = int (input("Enter a temperature in celcius"))
+if(temp >= 30):
+    print("It's a hot day")
+else:
+    print("The weather is cool")
+
+
+
+
+
 x = int(input("Enter a number"))
 y = int(input("Enter a number"))
-if(x>y):
-    print(f"The first number you entered was10{x}")
+if(x > y):
+    print("The number ", x , "is greater")
+elif(x == y):
+    print("the two numbers are equal")
+else:
+    print("The number ", y, "is greater")
